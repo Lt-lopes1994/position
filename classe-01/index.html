@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>janela Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container column center">
+    <header class="row center">
+      <h1>Login</h1>
+    </header>
+    <div class="login column">
+      <div class="email column">
+        <label for="email-txt">E-mail</label>
+        <input id="email-txt" type="text">
+      </div>
+      <div class="senha column">
+        <label for="senha-txt">Senha</label>
+        <input id="senha-txt" type="password">
+        <img class="img-olho" src="../classe-01/assets/olho-fechado.svg" onclick="alterarImg()" alt="">
+      </div>
+    </div>
+
+
+    <div class="btn row center">
+      <a class='center row' href="#">Entrar</a>
+    </div>
+  </div>
+</body>
+
+</html>
